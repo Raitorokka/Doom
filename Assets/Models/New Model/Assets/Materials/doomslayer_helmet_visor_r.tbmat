@@ -1,0 +1,85 @@
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = @Tex file "../Textures/doomslayer_helmet_visor_local.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/DOOM_Slayer/Assets/Textures/doomslayer_helmet_visor_local.png" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 0
+    Flip Z = 1
+    Object Space = 0
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceAdvancedMap
+    Microsurface Map = @Tex file "../Textures/doomslayer_helmet_visor_pm.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/DOOM_Slayer/Assets/Textures/doomslayer_helmet_visor_pm.png" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Mode = 0
+    Maximum = 0.767327
+    Minimum = 0
+    Exponent = 1
+    Horizon Smoothing = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = @Tex file "../Textures/doomslayer_helmet_visor.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/DOOM_Slayer/Assets/Textures/doomslayer_helmet_visor.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Color = 1 1 1
+@End
+
+@Sub SRDiffusion = SRDiffusionLambertian
+@End
+
+@Sub SRReflectivity = SRReflectivitySpecularMap
+    Specular Map = nil
+    Channel;specular = 4
+    Intensity = 0.0542678
+    Color = 1 1 1
+    Fresnel = 1
+    Fresnel Color = 1 1 1
+    Conserve Energy = 1
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SRReflection2 = SRReflectionGGX
+    Horizon Occlusion = 1
+    Secondary Gloss = 0.0226419
+    Secondary Intensity = 4
+    Secondary Intensity Color = 1 1 1
+    Secondary Fresnel = 1
+    Secondary Fresnel Color = 1 1 1
+@End
+
+@Sub SREmissive = SREmissiveMap
+    Emissive Map = nil
+    Color = 1 1 1
+    Intensity = 10
+    UV Set = 0
+    Glow = 0 0.00212469 0.00212469
+@End
+
+@Sub SRTransparency = SRTransparencyRefraction
+    Index of Refraction = 1
+    Distant Background = 0
+    Use Microsurface = 1
+    Tint = 0.0445039 0.266305 0.302379
+    Albedo Tint = 1
+    Caustics = 1
+    Mask = nil
+    Channel;mask = 0
+    Cutout = nil
+    Channel;cutout = 0
+    Use Albedo Alpha = 0
+    Use Dither = 0
+    Invert Mask = 0
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+

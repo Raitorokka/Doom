@@ -1,0 +1,405 @@
+fileFormatVersion: 2
+guid: b4b674d08b261864e84381536ed8e4ac
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_0
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 422
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7a872538de2c3a438cad8f09277ff36
+      internalID: -1563032334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_6
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 422
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451b82fd4dd3aa04cbbd849e34d25d94
+      internalID: -1665185089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_11
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 342
+        width: 83
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3db1f23665930354dae21b1dff4c9a67
+      internalID: -240893889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_16
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 326
+        width: 69
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e585f39051103d41a5e9d9fd92d9bb3
+      internalID: -520829818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 245
+        width: 100
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e1a81d9e5d36c469fbbfafc84cb88f
+      internalID: 1713791779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_22
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 248
+        width: 43
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c13145a4344a040bafb736ca3de2ac
+      internalID: 1871339812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_24
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 147
+        width: 97
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d365f43ccfb20345aa27418d1d68457
+      internalID: 599963380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_28
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 168
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2acd7874f03a54a858f327c39622a3
+      internalID: 1450725924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_30
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 149
+        width: 51
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3747b2ca29c617344971da64548f85b7
+      internalID: -1447461676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_34
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 65
+        width: 85
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4cdc78d0b173f84d8a47341034fa1f4
+      internalID: 1850718861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: EXPcrosshairs-removebg-preview 1_38
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 66
+        width: 37
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb107aba288b0194cbc3d89a41ca6340
+      internalID: 2008394329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      EXPcrosshairs-removebg-preview 1_36: -1504859321
+      EXPcrosshairs-removebg-preview 1_25: 220956936
+      EXPcrosshairs-removebg-preview 1_2: -1460812052
+      EXPcrosshairs-removebg-preview 1_37: 167950670
+      EXPcrosshairs-removebg-preview 1_35: -1563397784
+      EXPcrosshairs-removebg-preview 1_6: -1665185089
+      EXPcrosshairs-removebg-preview 1_14: 851543625
+      EXPcrosshairs-removebg-preview 1_32: -1717046746
+      EXPcrosshairs-removebg-preview 1_39: 902870200
+      EXPcrosshairs-removebg-preview 1_30: -1447461676
+      EXPcrosshairs-removebg-preview 1_28: 1450725924
+      EXPcrosshairs-removebg-preview 1_23: 1549497257
+      EXPcrosshairs-removebg-preview 1_10: -893592037
+      EXPcrosshairs-removebg-preview 1_5: 322317145
+      EXPcrosshairs-removebg-preview 1_4: 1565823211
+      EXPcrosshairs-removebg-preview 1_17: 1731044315
+      EXPcrosshairs-removebg-preview 1_12: 1113608704
+      EXPcrosshairs-removebg-preview 1_3: -1992404908
+      EXPcrosshairs-removebg-preview 1_31: -1747170378
+      EXPcrosshairs-removebg-preview 1_24: 599963380
+      EXPcrosshairs-removebg-preview 1_38: 2008394329
+      EXPcrosshairs-removebg-preview 1_7: 1631582212
+      EXPcrosshairs-removebg-preview 1_1: -1824684883
+      EXPcrosshairs-removebg-preview 1_19: 1713791779
+      EXPcrosshairs-removebg-preview 1_26: -1794077100
+      EXPcrosshairs-removebg-preview 1_29: 831489435
+      EXPcrosshairs-removebg-preview 1_18: -559282558
+      EXPcrosshairs-removebg-preview 1_21: 200563453
+      EXPcrosshairs-removebg-preview 1_33: 1310011950
+      EXPcrosshairs-removebg-preview 1_34: 1850718861
+      EXPcrosshairs-removebg-preview 1_15: 1692388072
+      EXPcrosshairs-removebg-preview 1_16: -520829818
+      EXPcrosshairs-removebg-preview 1_20: 601351554
+      EXPcrosshairs-removebg-preview 1_27: -1005935051
+      EXPcrosshairs-removebg-preview 1_22: 1871339812
+      EXPcrosshairs-removebg-preview 1_0: -1563032334
+      EXPcrosshairs-removebg-preview 1_8: 807459353
+      EXPcrosshairs-removebg-preview 1_13: -68025598
+      EXPcrosshairs-removebg-preview 1_11: -240893889
+      EXPcrosshairs-removebg-preview 1_9: 803571291
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

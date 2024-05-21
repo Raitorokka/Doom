@@ -1,0 +1,64 @@
+@Sub SRSurface = SRSurfaceNormalMap
+    Normal Map = @Tex file "../Textures/doomslayer_arm_left_n.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/DOOM_Slayer/Assets/Textures/doomslayer_arm_left_n.png" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scale & Bias = 1
+    Flip X = 0
+    Flip Y = 0
+    Flip Z = 1
+    Object Space = 0
+@End
+
+@Sub SRMicrosurface = SRMicrosurfaceAdvancedMap
+    Microsurface Map = @Tex file "../Textures/doomslayer_arm_left_g.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/DOOM_Slayer/Assets/Textures/doomslayer_arm_left_g.png" srgb 0 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel = 0
+    Mode = 0
+    Maximum = 1
+    Minimum = 0
+    Exponent = 0.65
+    Horizon Smoothing = 0
+@End
+
+@Sub SRAlbedo = SRAlbedoMap
+    Albedo Map = @Tex file "../Textures/doomslayer_arm_left.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/DOOM_Slayer/Assets/Textures/doomslayer_arm_left.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Color = 1 1 1
+@End
+
+@Sub SRDiffusion = SRDiffusionScatter
+    Scatter Map = @Tex file "../Textures/doomslayer_arm_left_blendmask_skin.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/DOOM_Slayer/Assets/Textures/doomslayer_arm_left_blendmask_skin.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Scatter Depth (mm) = 81.36
+    Scatter Color = 0.938686 0.434154 0.234551
+    Translucency Map = @Tex file "../Textures/doomslayer_arm_left_blendmask_skin.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/DOOM_Slayer/Assets/Textures/doomslayer_arm_left_blendmask_skin.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Translucency = 1
+    Translucency Color = 1 0.0152085 0.0152085
+    Translucency Depth (mm) = 4000
+    Translucency Scatter = 0.25
+    Fuzz Map = @Tex file "../Textures/doomslayer_arm_left_blendmask_skin.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/DOOM_Slayer/Assets/Textures/doomslayer_arm_left_blendmask_skin.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Fuzz = 0.164
+    Fuzz Color = 1 1 1
+    Mask Fuzz with Gloss = 0
+@End
+
+@Sub SRReflectivity = SRReflectivitySpecularMap
+    Specular Map = @Tex file "../Textures/doomslayer_arm_left_s.png" fileFull "G:/!Projects/Marmoset/bundles/!TODO/DOOM_Slayer/Assets/Textures/doomslayer_arm_left_s.png" srgb 1 filter 1 mip 1 aniso 4 wrap 1 visible 1 @EndTex
+    Channel;specular = 4
+    Intensity = 1
+    Color = 1 1 1
+    Fresnel = 1
+    Fresnel Color = 1 1 1
+    Conserve Energy = 1
+@End
+
+@Sub SRReflection = SRReflectionGGX
+    Horizon Occlusion = 1
+@End
+
+@Sub SRMerge = SRMerge
+    Texture Tiling = 1
+    Tile U = 1
+    Offset U = 0
+    Tile V = 1
+    Offset V = 0
+    Wrap = 1
+    Aniso = 2
+    Filter = 1
+@End
+
